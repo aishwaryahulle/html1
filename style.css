@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+a{
+    text-decoration: none;
+    margin: 1rem;
+}
+
+/* Hero section */
+#Hero{
+    display: flex;
+    justify-content: space-between;
+}
+#Hero.column1{
+    width: 50%;
+}
+#Hero .upper h1{
+    margin: 1rem;
+    padding: 1rem;
+}
+#Hero .middle{
+    display: flex;
+    height: 10rem;
+    width:10rem;
+    justify-content: space-around;
+    margin: 2rem;
+    padding: 2rem;
+}
+#Hero .lower{
+    display: flex;
+}
+#Hero .row{
+    width: 50%;
+    margin: 1rem;
+    padding: 1rem;
+}
+#Hero .row input{
+    display: flex;
+    flex-direction: column;
+    width:20rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+#Hero .row{
+    border-radius: 0.8rem;
+    border-style: dashed;
+}
+
+
